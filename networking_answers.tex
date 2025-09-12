@@ -1,0 +1,62 @@
+\input{preamble.tex}
+
+\title{\huge{Networking Questions}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Answers to MAC addresses}
+PC-A MAC: 74d4.dd5b.4efb
+
+PC-B MAC: 9ceb.e822.3a03
+
+S1 MAC: 001c.f97f.0301
+
+S2 MAC: 0023.ac94.d301
+
+PC-A OUI: 74d4dd
+
+PC-A SERIAL: 5b4efb
+
+PC-A VENDOR: Quanta Computer Inc. 
+
+PC-B OUI: 9cebe8
+
+PC-B SERIAL: 223a03 
+
+PC-B VENDOR: BizLink (Kunshan) Co.,Ltd 
+
+S1 VLAN1 OUI: 001cf9
+
+S1 VLAN1 SERIAL: 7f0301
+
+S1 VENDOR: Cisco Systems, Inc 
+
+S2 VLAN1 OUI: 0023ac 
+
+S2 SERIAL: 94d301 
+
+S2 VENDOR: Cisco Systems, Inc
+
+\newpage
+\section{Reflection questions}
+\emph{Broadcasts at Layer 2.}
+
+A layer 2 broadcast would involve sending data on all ports, 
+and since layer 2 is concerned with single communication links, 
+the addresses would not cross into different networks?
+The address would be FF:FF:FF:FF:FF:FF, in that case.
+
+\emph{Importance of MAC addresses.}
+
+Ip addresses, especially in a network where addresses are automatically
+assigned, do not tell you who is who, while a MAC address 
+is supposed to uniquely identify the machine.
+Additionally if, for instance you were a network administrator in a 
+large network, you could fetch the manufacturer behind a network card 
+without leaving your chair by fetching the MAC address. 
+
+
+\end{document}
